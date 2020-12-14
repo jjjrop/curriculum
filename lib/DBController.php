@@ -1,15 +1,16 @@
 <?php
 
+require_once '/home/nanablog1114/jjjrop.com/dotenv.php';
 class DBController
 {
   /**
    * データベースに接続
    */
   public static function DBConnect() {
-    $server = "mysql10030.xserver.jp";
-    $userName = "nanablog1114_db";
-    $password = "sibrin103";
-    $dbName = "nanablog1114_db";
+    $server = DB_SERVER;
+    $userName = DB_USERNAME;
+    $password = DB_PASSWORD;
+    $dbName = DB_DBNAME;
 
     try {
       $mysql = new mysqli($server, $userName, $password, $dbName);
@@ -25,9 +26,9 @@ class DBController
    * @param string $command mysqlコマンド
    */
   public static function selectOne($command) {
-    $dsn = 'mysql:dbname=nanablog1114_db;host=mysql10030.xserver.jp';
-    $userName = "nanablog1114_db";
-    $password = "sibrin103";
+    $dsn = DB_DSN;
+    $userName = DB_USERNAME;
+    $password = DB_PASSWORD;
     $dbh= new PDO($dsn, $userName, $password);
 
     // クエリの実行
@@ -45,9 +46,9 @@ class DBController
    * @param string $command mysqlコマンド
    */
   public static function selectArray($command) {
-    $dsn = 'mysql:dbname=nanablog1114_db;host=mysql10030.xserver.jp';
-    $userName = "nanablog1114_db";
-    $password = "sibrin103";
+    $dsn = DB_DSN;
+    $userName = DB_USERNAME;
+    $password = DB_PASSWORD;
     $dbh= new PDO($dsn, $userName, $password);
 
     // クエリの実行
@@ -65,9 +66,9 @@ class DBController
    * @param string $command mysqlコマンド
    */
   public static function insert($command) {
-    $dsn = 'mysql:dbname=nanablog1114_db;host=mysql10030.xserver.jp';
-    $userName = "nanablog1114_db";
-    $password = "sibrin103";
+    $dsn = DB_DSN;
+    $userName = DB_USERNAME;
+    $password = DB_PASSWORD;
     $dbh= new PDO($dsn, $userName, $password);
 
     // クエリの実行
@@ -86,9 +87,9 @@ class DBController
    * @param string $command mysqlコマンド
    */
   public static function update($command) {
-    $dsn = 'mysql:dbname=nanablog1114_db;host=mysql10030.xserver.jp';
-    $userName = "nanablog1114_db";
-    $password = "sibrin103";
+    $dsn = DB_DSN;
+    $userName = DB_USERNAME;
+    $password = DB_PASSWORD;
     $dbh= new PDO($dsn, $userName, $password);
 
     // クエリの実行
