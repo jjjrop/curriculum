@@ -1,0 +1,124 @@
+.p-curriculumForm-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.p-curriculumForm-box {
+  display: inline-block;
+  border: 1px solid #000;
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.p-curriculumForm {
+  text-align: center;
+}
+
+.p-curriculumForm-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.p-curriculumForm-top-list {
+  /* display: block; */
+  display: flex;
+  align-items: center;
+}
+
+.p-curriculumForm-top-list__item {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.p-curriculumForm-top-list__item:last-child {
+  margin-right: 0;
+}
+
+.p-curriculumForm-top-list__color {
+  border: 1px solid #000;
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.u-waitingColor {
+  background-color: #fff;
+}
+
+.u-workingColor {
+  background-color: #4fb6ed;
+}
+
+.u-completedColor {
+  background-color: #84eb69;
+}
+
+.p-curriculumForm__saveButton {
+  background-color: #484;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 50px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.p-curriculumForm-switch {
+  display: flex;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 135.3px;
+  cursor: pointer;
+}
+
+.p-curriculumForm-switch__btn--beginner {
+  padding: 7px 15px;
+  display: inline-block;
+  border-radius: 10px 0 0 10px;
+  width: 66px;
+}
+
+.p-curriculumForm-switch__btn--intermediate {
+  padding: 7px 15px;
+  display: inline-block;
+  border-radius: 0 10px 10px 0;
+  width: 66px;
+}
+
+.p-curriculumForm-table {
+  margin: 20px auto 0;
+  display: none;
+}
+
+.p-curriculumForm-table__header {
+  padding: 10px;
+}
+
+.p-curriculumForm-table__data {
+  padding: 10px;
+}
+
+.displayTable {
+  display: table;
+}
+
+.selected {
+  background-color: #484;
+  color: #fff;
+}
+
+.green {
+  background-color: green;
+}
+
+.p-curriculumForm-table__row--header {
+  background-color: #eee;
+}
