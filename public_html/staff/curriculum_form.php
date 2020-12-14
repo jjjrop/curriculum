@@ -194,7 +194,6 @@ $c_target_date = DBController::selectOne('select * from c_target_date where c_st
           // $(value).addClass("green");
           $(value).css("background-color", "#84eb69");
           break;
-          
         default:
       }
     });
