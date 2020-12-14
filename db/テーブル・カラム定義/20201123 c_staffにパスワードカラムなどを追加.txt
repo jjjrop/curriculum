@@ -1,0 +1,2 @@
+alter table c_staff add password varchar(128) after staff_number;
+alter table c_staff add email varchar(128) after password;

@@ -1,0 +1,98 @@
+.l-trainingReport-wrapper {
+  width: 100%;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.p-trainingReport-box {
+  display: inline-block;
+  border: 1px solid #000;
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.p-trainingReport-table__data {
+  height: 80px;
+  text-align: left;
+}
+
+.p-trainingReport-table__data--date {
+  width: 100px;
+}
+
+.p-trainingReport-form__saveButton {
+  background-color: #484;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.p-trainingReport-changeDateForm {
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-trainingReport-changeDateForm__arrow {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.p-trainingReport-form {
+  margin-top: 10px;
+}
+
+.u-today {
+  background-color: #ff0;
+}
+
+.u-red {
+  color: #f00;
+}
+
+.p-trainingReport__text {
+  height: 80px;
+  width: 500px;
+}
+
+.p-trainingReport-selectStaffForm {
+  display: flex;
+  display: inline-block;
+}
+
+.p-trainingReport-selectStaffForm__selection {
+  background-color: #fff;
+  padding: 0 10px;
+  width: 150px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.p-trainingReport-selectStaffForm__searchButton {
+  background-color: #f56;
+  color: #fff;
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.u-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.p-trainingReport-form__textArea {
+  border: none;
+}

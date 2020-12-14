@@ -1,0 +1,10 @@
+create table s_log (
+  id int NOT NULL auto_increment,
+  c_staff_id int,
+  status varchar(20),
+  message varchar(1000),
+  deleted boolean,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  primary key (id)
+);

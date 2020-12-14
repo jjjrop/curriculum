@@ -1,0 +1,91 @@
+.u-blue {
+  color: #00f;
+}
+
+.l-log-wrapper {
+  text-align: center;
+}
+
+.p-log-list {
+  padding: 0;
+  margin: 0;
+}
+
+.p-log-list__item--ymd {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+}
+
+.p-log-list__icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.p-log-list__ymd {
+  display: inline-block;
+}
+
+.p-log-list__item {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-log-list__message {
+  display: inline-block;
+}
+
+.p-log-list__beforeTime {
+  display: inline-block;
+}
+
+.u-border {
+  border-bottom: solid 1px #000;
+  border-left: solid 1px #000;
+  border-right: solid 1px #000;
+  width: 600px;
+}
+
+.u-border:first-child {
+  border-top: solid 1px #000;
+}
+
+.p-log-box {
+  display: inline-block;
+  border: 1px solid #000;
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.displayNone {
+  display: none;
+}
+
+.p-log-searchForm {
+  display: flex;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.p-log-searchForm__selection {
+  background-color: #fff;
+  padding: 0 10px;
+  width: 150px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.p-log-searchForm__searchButton {
+  background-color: #f56;
+  color: #fff;
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}

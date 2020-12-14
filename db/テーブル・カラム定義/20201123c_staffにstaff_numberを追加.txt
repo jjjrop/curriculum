@@ -1,0 +1,5 @@
+alter table c_staff add staff_number varchar(20) after status;
+
+alter table c_staff add curriculum_updated_at timestamp after deleted;
+
+alter table c_staff add birth_date date after email;
